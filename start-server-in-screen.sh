@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script helps start your minecraft server in a screen session,
+# allowing your server admins to have a proper ssh interface.
+
 # Add the following line in /etc/rc.local, (or sudo crontab -e)
 # su - yourUserName -c "/pathToScript/start-server-in-screen.sh"
 
